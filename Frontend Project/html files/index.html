@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JobPortal - Home</title>
+
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader">
+    <div class="spinner"></div>
+    <h2>JobPortal</h2>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="logo">JobPortal</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+        <li><a href="companies.html">Companies</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <button id="themeToggle">🌙</button>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <h1 class="typing"></h1>
+    <p>Explore thousands of jobs from top companies</p>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search jobs, companies...">
+        <button>Search</button>
+    </div>
+
+    <div class="stats">
+        <div><span class="counter" data-target="10000">0</span><p>Jobs</p></div>
+        <div><span class="counter" data-target="500">0</span><p>Companies</p></div>
+        <div><span class="counter" data-target="50000">0</span><p>Candidates</p></div>
+    </div>
+</section>
+
+<!-- Categories -->
+<section class="section">
+    <h2>Popular Categories</h2>
+
+    <div class="grid">
+        <div class="card">Java</div>
+        <div class="card">Frontend</div>
+        <div class="card">Backend</div>
+        <div class="card">Full Stack</div>
+        <div class="card">SQL</div>
+    </div>
+</section>
+
+<!-- Featured Jobs -->
+<section class="section">
+    <h2>Featured Jobs</h2>
+
+    <div class="grid">
+
+        <div class="job-card reveal">
+            <h3>Java Developer</h3>
+            <p>TCS - Chennai</p>
+            <span>₹4-6 LPA</span>
+            <button>Apply Now</button>
+        </div>
+
+        <div class="job-card reveal">
+            <h3>Frontend Developer</h3>
+            <p>Infosys - Bangalore</p>
+            <span>₹5-8 LPA</span>
+            <button>Apply Now</button>
+        </div>
+
+        <div class="job-card reveal">
+            <h3>Full Stack Developer</h3>
+            <p>Wipro - Hyderabad</p>
+            <span>₹6-10 LPA</span>
+            <button>Apply Now</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 JobPortal | Built with HTML CSS JS</p>
+</footer>
+
+<script src="/script.js"></script>
+</body>
+</html>
